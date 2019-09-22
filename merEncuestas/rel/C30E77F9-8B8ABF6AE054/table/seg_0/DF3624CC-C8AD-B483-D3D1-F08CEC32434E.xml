@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3624CC-C8AD-B483-D3D1-F08CEC32434E" name="PERSONAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3624CC-C8AD-B483-D3D1-F08CEC32434E" name="USUARIOS">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-22 02:11:36 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -7,4 +7,111 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIOS_ID" id="B205223E-2EFA-E7FD-C377-8909615F2581">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:35:16 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USUARIOS_idPersona</notNullConstraintName>
+</Column>
+<Column name="primerNombre" id="1F2A3550-7652-BC51-B96E-C5EB22C0403F">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:32:49 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoNombre" id="8BAB64B6-FEBC-821B-791B-8DC60E759C7A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:32:57 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primerApellido" id="79CD00EA-0D05-BCCB-D2F4-976E0D44869A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:33:10 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoApellido" id="1F5C25F7-B63C-A62F-81A9-670FCF3FDB71">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:33:19 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="BB40386D-4DBC-8D9F-6B1E-0D4582977D9C">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:46:47 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="D1CB8C33-CABD-444F-CBCA-7FBB1C57BB6A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:48:11 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="F009B088-B190-CB3E-BEF7-8F6D5159CE2A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:48:29 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="477439EC-8DE4-2C22-3CBA-4D0A0E776723" name="USUARIOS_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:35:16 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B205223E-2EFA-E7FD-C377-8909615F2581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
