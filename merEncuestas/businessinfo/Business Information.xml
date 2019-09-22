@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="189C5E64-A408-E9CB-FAFB-ED9F3B5F55A8">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:10:55 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
