@@ -30,6 +30,20 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="categoriaEncuesta_nombreCategoriaEnc" id="830975A8-D7D2-E6BC-CEA9-BC08F0C9831B">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:28:59 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCA234EC-77B1-F604-6E93-E46031C7CDAE" referredColumn="3077A9E2-5E99-35AE-F31C-04CE183C550B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="669C732C-1AA9-41AD-0D18-D311D09744FB" name="subCategoriaEncuesta_PK">
@@ -41,6 +55,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="37A8BAD7-CEC7-B51E-D881-D86CD321A1CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA7C762C-09A2-17D8-94B0-DC840A3D74C5" name="subCategoriaEncuesta_categoriaEncuesta_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:28:59 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="830975A8-D7D2-E6BC-CEA9-BC08F0C9831B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

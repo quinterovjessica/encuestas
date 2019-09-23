@@ -12,7 +12,6 @@
 <createdBy>quind</createdBy>
 <createdTime>2019-09-22 03:00:37 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,4 +31,17 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAE066C4-4FC3-C573-3F9B-A94A7AFEF86C" name="departamentos_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:23 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C893974C-9144-69A1-7765-05CAC141EBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

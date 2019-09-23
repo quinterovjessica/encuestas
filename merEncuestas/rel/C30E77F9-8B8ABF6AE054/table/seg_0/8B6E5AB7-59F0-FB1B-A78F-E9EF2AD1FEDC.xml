@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOcupacion" id="4D732FFE-162F-FDEC-3071-C3338A696DD4">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:43:16 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="nombreOcupacion" id="1547C0C0-A9AA-E5F0-59C1-6549CE506CA6">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-22 02:43:16 UTC</createdTime>
@@ -16,16 +26,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="idOcupacion" id="4D732FFE-162F-FDEC-3071-C3338A696DD4">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:43:16 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

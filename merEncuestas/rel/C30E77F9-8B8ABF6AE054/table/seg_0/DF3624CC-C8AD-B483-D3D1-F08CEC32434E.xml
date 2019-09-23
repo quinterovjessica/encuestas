@@ -136,6 +136,90 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="nivelEstudio_idNivelEstudios" id="E874B58D-06F5-26C4-02EE-1A2F099BB0DC">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:49 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9BC77D0-EE38-77BF-687F-53FD9FD7D313" referredColumn="75132278-2486-053F-0F5E-0BC565B8B541"/>
+</associations>
+</Column>
+<Column name="genero_idGenero" id="7724A9B6-5B07-4FCD-7987-B426BCAF22D0">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:57 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06055FFB-CC3F-D995-9FE4-7E6D663B94AF" referredColumn="3D859A0E-9417-DD67-AD25-BEB5CC38B0AF"/>
+</associations>
+</Column>
+<Column name="ocupacion_idOcupacion" id="9019A8C0-ED20-CA90-5CA3-332E22FDD095">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:04 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71DBE079-37BB-1040-DCAD-15065862F751" referredColumn="4D732FFE-162F-FDEC-3071-C3338A696DD4"/>
+</associations>
+</Column>
+<Column name="ciudades_idCiudad" id="923E5181-EAEB-85F8-C570-7B617A852258">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:09 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="872CF526-CFF1-281F-7468-4304133E41DB" referredColumn="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
+</associations>
+</Column>
+<Column name="paises_idPais" id="14C8D095-547D-C36B-5C11-5BADB52F6012">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:13 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFF3AC5B-629D-7A23-A131-9E2DC87197D4" referredColumn="9C6492B5-ED3A-D821-09FD-FFECF0DD0B43"/>
+</associations>
+</Column>
+<Column name="departamentos_idDepartamento" id="5D7D6515-FAB3-D0F9-5DE3-D30E1820D0A5">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:27 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04F6B076-B2A2-8608-A8D4-298CFF4CDDD9" referredColumn="C893974C-9144-69A1-7765-05CAC141EBD8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="477439EC-8DE4-2C22-3CBA-4D0A0E776723" name="USUARIOS_PK">
@@ -147,6 +231,66 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B205223E-2EFA-E7FD-C377-8909615F2581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D6FF9E-D3DC-DDA1-EB39-E74DEDA86ACA" name="USUARIOS_nivelEstudio_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:49 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E874B58D-06F5-26C4-02EE-1A2F099BB0DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A66A65F-ED06-8ACD-7F23-F195ABAAC0D4" name="USUARIOS_genero_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:57 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7724A9B6-5B07-4FCD-7987-B426BCAF22D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="857E7D3F-034A-C59F-E54B-81AC0D0D2DBB" name="USUARIOS_ocupacion_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:04 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9019A8C0-ED20-CA90-5CA3-332E22FDD095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DEA40DE-6B33-8EA5-7B96-154030BCDFF7" name="USUARIOS_ciudades_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:09 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923E5181-EAEB-85F8-C570-7B617A852258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4850124A-F576-6221-3909-5EE2A71A3968" name="USUARIOS_paises_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:13 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14C8D095-547D-C36B-5C11-5BADB52F6012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAC2E7FA-865D-1175-572D-27B4F06B9030" name="USUARIOS_departamentos_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:27 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D7D6515-FAB3-D0F9-5DE3-D30E1820D0A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
