@@ -7,4 +7,41 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCategoriaEnc" id="F2545BE8-2C40-B1DB-7173-DDACA36EBC04">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:14:52 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCategoriaEnc" id="3077A9E2-5E99-35AE-F31C-04CE183C550B">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:15:30 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16A8C7A7-8D86-8B26-8704-11B981F04530" name="categoriaEncuesta_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:15:30 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3077A9E2-5E99-35AE-F31C-04CE183C550B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

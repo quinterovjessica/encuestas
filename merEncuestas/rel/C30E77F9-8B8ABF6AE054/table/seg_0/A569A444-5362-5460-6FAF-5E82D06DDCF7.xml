@@ -7,4 +7,40 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPregunta" id="B34D7482-6305-338A-FF4D-8820F90F1058">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:16:14 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombrePregunta" id="9EE384D0-43EF-90D2-4D78-8B31C8D7F933">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:16:14 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B49E21F7-556F-92E9-9DC0-558DE2C2F3F5" name="PREGUNTAS_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:16:14 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B34D7482-6305-338A-FF4D-8820F90F1058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
