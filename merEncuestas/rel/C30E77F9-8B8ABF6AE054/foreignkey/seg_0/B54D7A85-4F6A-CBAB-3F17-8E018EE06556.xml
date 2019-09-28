@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B54D7A85-4F6A-CBAB-3F17-8E018EE06556" containerWithKeyObject="2BABA4E3-36FA-2A70-4B4C-421695C8452C" localFKIndex="0818E28E-7769-C513-F924-8AD8FD83F44B" name="CIUDADES_DEPARTAMENTOS_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:37:40 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<referredTableLongName>DEPARTAMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15DAE48A-B252-AAAD-CB40-AE52A5E2D77A</referredTableID>
+<keyObject>A855DF99-970B-5C9B-6984-94F0938566BD</keyObject>
+<referredKeyID>A855DF99-970B-5C9B-6984-94F0938566BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDepartamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
