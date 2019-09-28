@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CB1007C-4715-FC1B-CC66-2EFC812C8FC1" name="OPCION_RESPUESTA">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-27 23:56:01 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

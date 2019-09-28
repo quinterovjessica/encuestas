@@ -1,46 +1,46 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E032BF78-CD25-111F-FBB8-92AC70C0DAFC" name="paises">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6B1ED4-71AE-864C-57EB-3072066EA04D" name="PAISES">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:59:45 UTC</createdTime>
+<createdTime>2019-09-28 00:29:35 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idPais" id="9C6492B5-ED3A-D821-09FD-FFECF0DD0B43">
+<Column name="idPais" id="034E1321-F9FC-D231-58CD-EAFC7CF519CC">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:59:45 UTC</createdTime>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombrePais" id="09C4D4C4-7D4D-5B6B-18EC-6D7EE9094816">
+<Column name="nombrePaies" id="A76E352C-A0D6-0A36-8352-2A57C4EFA754">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:59:45 UTC</createdTime>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="074E716A-76C0-DC2E-357C-AE480DE51DC4" name="paises_PK">
+<ind_PK_UK id="D17A22AB-F0FC-23DA-85E1-F505006BC2C0" name="PAISES_PK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:26:45 UTC</createdTime>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9C6492B5-ED3A-D821-09FD-FFECF0DD0B43"/>
+<colUsage columnID="034E1321-F9FC-D231-58CD-EAFC7CF519CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

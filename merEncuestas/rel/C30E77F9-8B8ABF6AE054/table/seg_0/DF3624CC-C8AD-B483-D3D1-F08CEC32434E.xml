@@ -100,42 +100,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="paisNacimiento" id="B50D99F8-32F8-54B8-9989-4577D6FF2B8A">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:56:39 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="departamentoNacimiento" id="E6DFAB5E-FDB2-2CAE-2473-0AE753EC2B28">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:58:32 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ciudadNacimiento" id="481086CE-BE26-C2D3-2148-AD1DB971A581">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:57:14 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="nivelEstudio_idNivelEstudios" id="E874B58D-06F5-26C4-02EE-1A2F099BB0DC">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-23 01:26:49 UTC</createdTime>
@@ -192,34 +156,6 @@
 <colAssociation fkAssociation="872CF526-CFF1-281F-7468-4304133E41DB" referredColumn="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
 </associations>
 </Column>
-<Column name="paises_idPais" id="14C8D095-547D-C36B-5C11-5BADB52F6012">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:27:13 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EFF3AC5B-629D-7A23-A131-9E2DC87197D4" referredColumn="9C6492B5-ED3A-D821-09FD-FFECF0DD0B43"/>
-</associations>
-</Column>
-<Column name="departamentos_idDepartamento" id="5D7D6515-FAB3-D0F9-5DE3-D30E1820D0A5">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:27:27 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="04F6B076-B2A2-8608-A8D4-298CFF4CDDD9" referredColumn="C893974C-9144-69A1-7765-05CAC141EBD8"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="477439EC-8DE4-2C22-3CBA-4D0A0E776723" name="USUARIOS_PK">
@@ -271,26 +207,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="923E5181-EAEB-85F8-C570-7B617A852258"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4850124A-F576-6221-3909-5EE2A71A3968" name="USUARIOS_paises_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:27:13 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="14C8D095-547D-C36B-5C11-5BADB52F6012"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EAC2E7FA-865D-1175-572D-27B4F06B9030" name="USUARIOS_departamentos_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:27:27 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5D7D6515-FAB3-D0F9-5DE3-D30E1820D0A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

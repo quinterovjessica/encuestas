@@ -1,49 +1,38 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BABA4E3-36FA-2A70-4B4C-421695C8452C" name="CIUDADES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15DAE48A-B252-AAAD-CB40-AE52A5E2D77A" name="DEPARTAMENTOS">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:58:56 UTC</createdTime>
+<createdTime>2019-09-28 00:30:49 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_19</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idCiudad" id="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7">
+<Column name="idDepartamento" id="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:59:13 UTC</createdTime>
+<createdTime>2019-09-28 00:31:39 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombreCiudad" id="D4EBA5CF-E2C1-8C68-D2AC-4ED6982B04E3">
+<Column name="nombreDepartamento" id="5364CAE3-554A-3535-47C6-562376748E82">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-22 02:59:36 UTC</createdTime>
+<createdTime>2019-09-28 00:31:39 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="departamentos_idDepartamento" id="2B9F6FEE-A757-C36F-5511-930F903FC2B9">
+<Column name="PAISES_idPais" id="192F74A6-5630-283E-44DA-B6A2CB30D91D">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:15:02 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DEPARTAMENTOS_idDepartamento1" id="0E22202C-4CFD-2C3B-B291-A55B8418AD83">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:37:40 UTC</createdTime>
+<createdTime>2019-09-28 00:37:26 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,30 +41,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B54D7A85-4F6A-CBAB-3F17-8E018EE06556" referredColumn="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6"/>
+<colAssociation fkAssociation="40A03E89-6540-CEDF-A8ED-610E9BD63FBF" referredColumn="034E1321-F9FC-D231-58CD-EAFC7CF519CC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="40E68938-E159-6035-9761-AA64084EECCA" name="ciudades_PK">
+<ind_PK_UK id="A855DF99-970B-5C9B-6984-94F0938566BD" name="DEPARTAMENTOS_PK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:26:41 UTC</createdTime>
+<createdTime>2019-09-28 00:31:39 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
+<colUsage columnID="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0818E28E-7769-C513-F924-8AD8FD83F44B" name="CIUDADES_DEPARTAMENTOS_FK">
+<ind_PK_UK id="20A7527C-B462-6772-3B40-E4C86BAC9ED5" name="DEPARTAMENTOS_PAISES_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:37:40 UTC</createdTime>
+<createdTime>2019-09-28 00:37:26 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0E22202C-4CFD-2C3B-B291-A55B8418AD83"/>
+<colUsage columnID="192F74A6-5630-283E-44DA-B6A2CB30D91D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
