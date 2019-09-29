@@ -112,7 +112,7 @@
 <colAssociation fkAssociation="BDFBCA42-377C-7891-E2FD-E0D67E5ACC9A" referredColumn="F2545BE8-2C40-B1DB-7173-DDACA36EBC04"/>
 </associations>
 </Column>
-<Column name="rangoMinEdad" id="26500BE6-B163-2C51-F5C8-B8C6C0525E1B">
+<Column name="rangoEdadMin" id="26500BE6-B163-2C51-F5C8-B8C6C0525E1B">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:48:07 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

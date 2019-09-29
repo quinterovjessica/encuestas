@@ -30,17 +30,6 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="departamentos_idDepartamento" id="2B9F6FEE-A757-C36F-5511-930F903FC2B9">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:15:02 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="idDepartamento" id="E0250C0F-7FDA-CF30-E586-41FF6C99603A">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 18:14:15 UTC</createdTime>

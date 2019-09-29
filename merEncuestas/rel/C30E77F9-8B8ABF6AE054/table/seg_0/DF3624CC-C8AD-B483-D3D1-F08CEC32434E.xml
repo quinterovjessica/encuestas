@@ -100,7 +100,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nivelEstudio_idNivelEstudios" id="E874B58D-06F5-26C4-02EE-1A2F099BB0DC">
+<Column name="idNivelEstudios" id="E874B58D-06F5-26C4-02EE-1A2F099BB0DC">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-23 01:26:49 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -114,7 +114,7 @@
 <colAssociation fkAssociation="C9BC77D0-EE38-77BF-687F-53FD9FD7D313" referredColumn="75132278-2486-053F-0F5E-0BC565B8B541"/>
 </associations>
 </Column>
-<Column name="genero_idGenero" id="7724A9B6-5B07-4FCD-7987-B426BCAF22D0">
+<Column name="idGenero" id="7724A9B6-5B07-4FCD-7987-B426BCAF22D0">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-23 01:26:57 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -126,7 +126,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ocupacion_idOcupacion" id="9019A8C0-ED20-CA90-5CA3-332E22FDD095">
+<Column name="idOcupacion" id="9019A8C0-ED20-CA90-5CA3-332E22FDD095">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-23 01:27:04 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -140,7 +140,7 @@
 <colAssociation fkAssociation="71DBE079-37BB-1040-DCAD-15065862F751" referredColumn="4D732FFE-162F-FDEC-3071-C3338A696DD4"/>
 </associations>
 </Column>
-<Column name="ciudades_idCiudad" id="923E5181-EAEB-85F8-C570-7B617A852258">
+<Column name="idCiudad" id="923E5181-EAEB-85F8-C570-7B617A852258">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-23 01:27:09 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
