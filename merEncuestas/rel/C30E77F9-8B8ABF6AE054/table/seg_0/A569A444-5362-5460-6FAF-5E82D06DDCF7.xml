@@ -14,7 +14,7 @@
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -47,26 +47,12 @@
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="ACC60E40-0746-ADAE-D4B1-A87EFC269289" referredColumn="740C5F55-37EE-09B1-E29F-22662D6A0939"/>
-</associations>
-</Column>
-<Column name="ENCUESTAS_idEncuesta" id="404B62FC-4FE3-B732-2453-CE2AEB32BC31">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 18:08:36 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6D512FAB-BD05-053B-2FB8-06237615FC42" referredColumn="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
 </associations>
 </Column>
 </columns>
@@ -90,16 +76,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3FDFA3C0-0B29-72E1-9881-DA65C4EBADD9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="FE847744-7028-7E10-C3FB-1B9617D95A24" name="PREGUNTAS_ENCUESTAS_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 18:08:36 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="404B62FC-4FE3-B732-2453-CE2AEB32BC31"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

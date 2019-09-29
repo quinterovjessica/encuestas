@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D512FAB-BD05-053B-2FB8-06237615FC42" containerWithKeyObject="A569A444-5362-5460-6FAF-5E82D06DDCF7" localFKIndex="FE847744-7028-7E10-C3FB-1B9617D95A24" name="PREGUNTAS_ENCUESTAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="902BB781-AF85-7A82-0487-B1F0BB96ADBF" containerWithKeyObject="5A1E3624-A312-3D5C-EAA3-C60243AA0EA5" localFKIndex="5A75451C-1A7E-9A36-D345-A0FA4576EEC2" name="ENC_PREGUNTA_ENCUESTAS_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 18:08:36 UTC</createdTime>
+<createdTime>2019-09-29 21:17:12 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <referredTableLongName>ENCUESTAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

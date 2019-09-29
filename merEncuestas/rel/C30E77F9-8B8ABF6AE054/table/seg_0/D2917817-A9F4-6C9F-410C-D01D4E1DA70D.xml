@@ -14,7 +14,7 @@
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -30,18 +30,18 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CATEGORIAENCUESTAS_nombreCatEnc" id="BF2009A3-3977-726E-116E-465B54AEAA2A">
+<Column name="CATEGORIAENCUESTAS_idCategoriaEnc" id="5A3B17D0-1396-E53F-7451-C55C50D175B4">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 18:16:11 UTC</createdTime>
+<createdTime>2019-09-29 21:11:05 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4C634DF3-12C6-B225-7D4C-8E7D289911B5" referredColumn="3077A9E2-5E99-35AE-F31C-04CE183C550B"/>
+<colAssociation fkAssociation="4C634DF3-12C6-B225-7D4C-8E7D289911B5" referredColumn="F2545BE8-2C40-B1DB-7173-DDACA36EBC04"/>
 </associations>
 </Column>
 </columns>
@@ -64,7 +64,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF2009A3-3977-726E-116E-465B54AEAA2A"/>
+<colUsage columnID="5A3B17D0-1396-E53F-7451-C55C50D175B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE9942ED-A058-B7CE-6734-878102475E18" containerWithKeyObject="BCBE2919-3D52-2DB8-C4E0-F72CEB478760" localFKIndex="4DCD75B5-FF9A-8790-A5BF-7BE96DD56D2E" name="CONDICIONAL_PREGUNTA_PREGUNTAS_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:38:23 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<referredTableLongName>PREGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A569A444-5362-5460-6FAF-5E82D06DDCF7</referredTableID>
+<keyObject>B49E21F7-556F-92E9-9DC0-558DE2C2F3F5</keyObject>
+<referredKeyID>B49E21F7-556F-92E9-9DC0-558DE2C2F3F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPregunta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

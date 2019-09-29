@@ -1,69 +1,72 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D4EB11-D73D-FFD3-6516-A3004D4DA15A" name="RESP_PREG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A1E3624-A312-3D5C-EAA3-C60243AA0EA5" name="ENC_PREGUNTA">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 17:20:23 UTC</createdTime>
+<createdTime>2019-09-29 21:16:30 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_17</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nombrePregunta" id="F2C67485-30FC-8B1C-0729-29277EE60288">
+<Column name="ordenPregunta" id="D1021D0F-1D44-1D64-63AB-5035256BA517">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 17:21:35 UTC</createdTime>
+<createdTime>2019-09-29 21:17:06 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="idRespPreg" id="67B9EC10-7162-319A-F6DD-58AD3308AF01">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:15:02 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OPCION_PREGUNTAS_IdOpcionP" id="EC31FCC4-B1AC-0881-F3E9-45331153A120">
+<Column name="ENCUESTAS_idEncuesta" id="517BD632-DD78-6146-7EC0-4774A14E119B">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:15:11 UTC</createdTime>
+<createdTime>2019-09-29 21:17:12 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BF566520-A415-5177-7F0F-610233924C0D" referredColumn="740C5F55-37EE-09B1-E29F-22662D6A0939"/>
+<colAssociation fkAssociation="902BB781-AF85-7A82-0487-B1F0BB96ADBF" referredColumn="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
+</associations>
+</Column>
+<Column name="PREGUNTAS_idPregunta" id="2DBBEAD4-CBF2-95E9-EA00-9F99162B05FD">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:17:17 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCD91EF0-5A50-AEFD-C29D-23CC1B760EE6" referredColumn="B34D7482-6305-338A-FF4D-8820F90F1058"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F344EF3D-EA1C-E1C4-6F43-B2C0264EBFF2" name="RESP_PREG_PK">
+<ind_PK_UK id="5A75451C-1A7E-9A36-D345-A0FA4576EEC2" name="ENC_PREGUNTA_ENCUESTAS_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:15:02 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="67B9EC10-7162-319A-F6DD-58AD3308AF01"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="659FAACB-484E-7B39-6579-137A158E2B91" name="RESP_PREG_OPCION_PREGUNTAS_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:15:11 UTC</createdTime>
+<createdTime>2019-09-29 21:17:12 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC31FCC4-B1AC-0881-F3E9-45331153A120"/>
+<colUsage columnID="517BD632-DD78-6146-7EC0-4774A14E119B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FAEFC9D-9165-79C6-8034-C9ADDB2AC646" name="ENC_PREGUNTA_PREGUNTAS_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:17:17 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBBEAD4-CBF2-95E9-EA00-9F99162B05FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
