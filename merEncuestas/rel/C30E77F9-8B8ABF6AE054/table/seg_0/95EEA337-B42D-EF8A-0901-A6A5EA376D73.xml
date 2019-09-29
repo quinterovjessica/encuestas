@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ENCUESTAS_idEncuesta" id="5C29DB9D-8E71-C476-DF37-6CBE098A3717">
+<Column name="idEncuesta" id="5C29DB9D-8E71-C476-DF37-6CBE098A3717">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 17:30:49 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -33,7 +33,7 @@
 <colAssociation fkAssociation="936DA066-9740-FF16-83E6-BD0A5CA557E5" referredColumn="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
 </associations>
 </Column>
-<Column name="USUARIOS_idUusuario" id="33F2DEF8-74F8-593C-A2A0-ADE94097ECE7">
+<Column name="idUusuario" id="33F2DEF8-74F8-593C-A2A0-ADE94097ECE7">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 18:12:57 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -47,7 +47,7 @@
 <colAssociation fkAssociation="2805259E-4B06-009D-9B86-C05D51C46B59" referredColumn="B205223E-2EFA-E7FD-C377-8909615F2581"/>
 </associations>
 </Column>
-<Column name="PREGUNTAS_idPregunta" id="793F4D24-317F-8349-968C-9C51FBFDA599">
+<Column name="idPregunta" id="793F4D24-317F-8349-968C-9C51FBFDA599">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:35:53 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

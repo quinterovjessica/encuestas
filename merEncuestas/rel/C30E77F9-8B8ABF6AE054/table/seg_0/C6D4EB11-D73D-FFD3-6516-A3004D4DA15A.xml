@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="idRespPreg" id="67B9EC10-7162-319A-F6DD-58AD3308AF01">
@@ -29,13 +30,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OPCION_PREGUNTAS_IdOpcionP" id="EC31FCC4-B1AC-0881-F3E9-45331153A120">
+<Column name="IdOpcionP" id="EC31FCC4-B1AC-0881-F3E9-45331153A120">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:15:11 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

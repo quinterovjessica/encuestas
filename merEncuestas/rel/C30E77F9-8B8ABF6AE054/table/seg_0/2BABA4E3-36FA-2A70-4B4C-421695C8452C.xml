@@ -41,7 +41,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEPARTAMENTOS_idDepartamento1" id="E0250C0F-7FDA-CF30-E586-41FF6C99603A">
+<Column name="idDepartamento" id="E0250C0F-7FDA-CF30-E586-41FF6C99603A">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 18:14:15 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

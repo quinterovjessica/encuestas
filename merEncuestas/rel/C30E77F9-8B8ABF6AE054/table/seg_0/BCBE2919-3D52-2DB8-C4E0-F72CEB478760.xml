@@ -8,13 +8,13 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PREGUNTAS_idPregunta" id="45ACCA5D-641E-547F-CD14-FECA29734CC5">
+<Column name="idPregunta" id="45ACCA5D-641E-547F-CD14-FECA29734CC5">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:38:23 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -22,13 +22,13 @@
 <colAssociation fkAssociation="EE9942ED-A058-B7CE-6734-878102475E18" referredColumn="B34D7482-6305-338A-FF4D-8820F90F1058"/>
 </associations>
 </Column>
-<Column name="OPCION_RESPUESTAS_IdOpcionR" id="476D4624-C41A-0502-035F-D0F7D374021B">
+<Column name="IdOpcionR" id="476D4624-C41A-0502-035F-D0F7D374021B">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:38:28 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

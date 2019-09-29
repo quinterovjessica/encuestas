@@ -110,7 +110,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CATEGORIAENCUESTAS_idCategoriaEnc" id="FB5D216C-EF25-A995-F73D-990531C8C5A0">
+<Column name="idCategoriaEnc" id="FB5D216C-EF25-A995-F73D-990531C8C5A0">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:11:05 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

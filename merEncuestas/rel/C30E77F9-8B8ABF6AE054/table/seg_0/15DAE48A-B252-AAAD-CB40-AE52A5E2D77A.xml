@@ -30,7 +30,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PAISES_idPais" id="192F74A6-5630-283E-44DA-B6A2CB30D91D">
+<Column name="iidPais" id="192F74A6-5630-283E-44DA-B6A2CB30D91D">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-28 00:37:26 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

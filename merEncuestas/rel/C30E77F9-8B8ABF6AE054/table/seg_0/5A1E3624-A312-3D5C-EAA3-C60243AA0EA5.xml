@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ENCUESTAS_idEncuesta" id="517BD632-DD78-6146-7EC0-4774A14E119B">
+<Column name="idEncuesta" id="517BD632-DD78-6146-7EC0-4774A14E119B">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:17:12 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -33,7 +33,7 @@
 <colAssociation fkAssociation="902BB781-AF85-7A82-0487-B1F0BB96ADBF" referredColumn="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
 </associations>
 </Column>
-<Column name="PREGUNTAS_idPregunta" id="2DBBEAD4-CBF2-95E9-EA00-9F99162B05FD">
+<Column name="idPregunta" id="2DBBEAD4-CBF2-95E9-EA00-9F99162B05FD">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:17:17 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
