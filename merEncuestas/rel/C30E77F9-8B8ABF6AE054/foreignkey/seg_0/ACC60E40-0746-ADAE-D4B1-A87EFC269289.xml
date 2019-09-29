@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACC60E40-0746-ADAE-D4B1-A87EFC269289" containerWithKeyObject="A569A444-5362-5460-6FAF-5E82D06DDCF7" localFKIndex="CC69FE0F-6611-5424-8002-629956BF5585" name="PREGUNTAS_OPCION_PREGUNTA_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 16:59:18 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<referredTableLongName>OPCION_PREGUNTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CB1007C-4715-FC1B-CC66-2EFC812C8FC1</referredTableID>
+<keyObject>07F0220B-44B0-4CE6-00B7-5273D895FFF8</keyObject>
+<referredKeyID>07F0220B-44B0-4CE6-00B7-5273D895FFF8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OPCION_PREGUNTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

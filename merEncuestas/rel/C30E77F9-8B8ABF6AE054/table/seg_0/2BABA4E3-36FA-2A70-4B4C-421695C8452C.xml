@@ -41,9 +41,9 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEPARTAMENTOS_idDepartamento1" id="0E22202C-4CFD-2C3B-B291-A55B8418AD83">
+<Column name="DEPARTAMENTOS_idDepartamento1" id="E0250C0F-7FDA-CF30-E586-41FF6C99603A">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:37:40 UTC</createdTime>
+<createdTime>2019-09-29 18:14:15 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,7 +52,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B54D7A85-4F6A-CBAB-3F17-8E018EE06556" referredColumn="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6"/>
+<colAssociation fkAssociation="085F0B2F-FD17-B2A0-79D7-522713496A03" referredColumn="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6"/>
 </associations>
 </Column>
 </columns>
@@ -68,14 +68,14 @@
 <colUsage columnID="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0818E28E-7769-C513-F924-8AD8FD83F44B" name="CIUDADES_DEPARTAMENTOS_FK">
+<ind_PK_UK id="D4B786B1-2313-999C-BE7F-D629FDDC0D37" name="CIUDADES_DEPARTAMENTOS_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-28 00:37:40 UTC</createdTime>
+<createdTime>2019-09-29 18:14:15 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0E22202C-4CFD-2C3B-B291-A55B8418AD83"/>
+<colUsage columnID="E0250C0F-7FDA-CF30-E586-41FF6C99603A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

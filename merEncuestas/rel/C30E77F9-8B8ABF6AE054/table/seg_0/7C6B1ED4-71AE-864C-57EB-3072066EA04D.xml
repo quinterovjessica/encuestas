@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombrePaies" id="A76E352C-A0D6-0A36-8352-2A57C4EFA754">
+<Column name="nombrePais" id="A76E352C-A0D6-0A36-8352-2A57C4EFA754">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-28 00:30:43 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>

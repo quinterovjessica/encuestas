@@ -1,26 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FA3EB40-1FAF-2935-04EA-28783DB3D7C2" name="ENCUESTA_PREGUNTA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D4EB11-D73D-FFD3-6516-A3004D4DA15A" name="RESP_PREG">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:29:55 UTC</createdTime>
+<createdTime>2019-09-29 17:20:23 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
-<ordsAlias>table_12</ordsAlias>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idEncuestaPregunta" id="187D50AC-A0E9-2510-2301-E2F213D03F98">
+<Column name="Descripcion" id="F2C67485-30FC-8B1C-0729-29277EE60288">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:30:37 UTC</createdTime>
+<createdTime>2019-09-29 17:21:35 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ENCUESTAS_idEncuesta" id="41150E70-3501-88A6-3FC3-9DD75E40A146">
+<Column name="OPCION_PREGUNTAS_IdOpcionP" id="8F2A1C76-ADEE-4112-E652-31E07DD46065">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:31:00 UTC</createdTime>
+<createdTime>2019-09-29 18:18:53 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +30,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4A513FB1-6752-DDFA-00BC-5BB4B5A12326" referredColumn="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
+<colAssociation fkAssociation="A01490AE-538A-8EA8-234E-92765BDCE149" referredColumn="740C5F55-37EE-09B1-E29F-22662D6A0939"/>
 </associations>
 </Column>
-<Column name="PREGUNTAS_idPregunta" id="88CC7437-D9E1-8660-A705-8B963806523C">
+<Column name="OPCION_RESPUESTAS_IdOpcionR" id="23FA1C44-B259-FDB4-ED78-71EF46368467">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:31:09 UTC</createdTime>
+<createdTime>2019-09-29 18:18:57 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,40 +44,29 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B09E3B04-FAB2-E551-1D56-607E72AB80E8" referredColumn="B34D7482-6305-338A-FF4D-8820F90F1058"/>
+<colAssociation fkAssociation="563A587E-7EA9-DD3A-D461-BCEB61AAEB35" referredColumn="042A86FC-BD89-7E00-8FE7-C4F1CC34BE99"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1F7294F7-7797-051B-A0F3-5260838B7F23" name="ENCUESTA_PREGUNTA_PK">
+<ind_PK_UK id="D1FD2D8A-02D7-11C9-69F1-584A40AC17A3" name="RESP_PREG_OPCION_PREGUNTAS_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:30:37 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="187D50AC-A0E9-2510-2301-E2F213D03F98"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0612BFEF-6EA0-3344-E7EE-28EDA41940D7" name="ENCUESTA_PREGUNTA_ENCUESTAS_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:31:00 UTC</createdTime>
+<createdTime>2019-09-29 18:18:53 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="41150E70-3501-88A6-3FC3-9DD75E40A146"/>
+<colUsage columnID="8F2A1C76-ADEE-4112-E652-31E07DD46065"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0E62378-A492-4D4A-436E-23DF7233F950" name="ENCUESTA_PREGUNTA_PREGUNTAS_FK">
+<ind_PK_UK id="C556B710-610E-0419-1253-0034DB695A88" name="RESP_PREG_OPCION_RESPUESTAS_FK">
 <createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:31:09 UTC</createdTime>
+<createdTime>2019-09-29 18:18:57 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="88CC7437-D9E1-8660-A705-8B963806523C"/>
+<colUsage columnID="23FA1C44-B259-FDB4-ED78-71EF46368467"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

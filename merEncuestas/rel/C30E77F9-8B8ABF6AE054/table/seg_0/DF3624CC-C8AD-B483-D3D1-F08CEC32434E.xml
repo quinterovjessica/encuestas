@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="USUARIOS_ID" id="B205223E-2EFA-E7FD-C377-8909615F2581">
+<Column name="idUusuario" id="B205223E-2EFA-E7FD-C377-8909615F2581">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-22 02:35:16 UTC</createdTime>
 <ownerDesignName>merEncuestas</ownerDesignName>
@@ -124,9 +124,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="06055FFB-CC3F-D995-9FE4-7E6D663B94AF" referredColumn="3D859A0E-9417-DD67-AD25-BEB5CC38B0AF"/>
-</associations>
 </Column>
 <Column name="ocupacion_idOcupacion" id="9019A8C0-ED20-CA90-5CA3-332E22FDD095">
 <createdBy>quind</createdBy>
@@ -177,16 +174,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E874B58D-06F5-26C4-02EE-1A2F099BB0DC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1A66A65F-ED06-8ACD-7F23-F195ABAAC0D4" name="USUARIOS_genero_FK">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-23 01:26:57 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7724A9B6-5B07-4FCD-7987-B426BCAF22D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="857E7D3F-034A-C59F-E54B-81AC0D0D2DBB" name="USUARIOS_ocupacion_FK">
