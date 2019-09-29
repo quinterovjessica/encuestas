@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRespPreg" id="67B9EC10-7162-319A-F6DD-58AD3308AF01">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:15:02 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="nombrePregunta" id="F2C67485-30FC-8B1C-0729-29277EE60288">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 17:21:35 UTC</createdTime>
@@ -18,16 +28,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="idRespPreg" id="67B9EC10-7162-319A-F6DD-58AD3308AF01">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:15:02 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IdOpcionP" id="EC31FCC4-B1AC-0881-F3E9-45331153A120">

@@ -54,18 +54,6 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipoEncuesta_1" id="BDAAB180-156E-C39E-3059-D229EEFE79C1">
-<createdBy>quind</createdBy>
-<createdTime>2019-09-29 21:10:23 UTC</createdTime>
-<ownerDesignName>merEncuestas</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="fechaInicioDis" id="499F1533-1609-9B03-FA59-7D3DB272D3F5">
 <createdBy>quind</createdBy>
 <createdTime>2019-09-29 21:10:23 UTC</createdTime>
