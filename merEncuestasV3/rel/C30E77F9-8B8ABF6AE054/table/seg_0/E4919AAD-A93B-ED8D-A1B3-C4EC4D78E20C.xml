@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4919AAD-A93B-ED8D-A1B3-C4EC4D78E20C" name="ENCUESTAS">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:22:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEncuesta" id="288C979E-CB4E-06A0-D686-2C46E668B60D">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:36:18 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreEncuesta" id="25FD46AE-1A93-0F56-7ED0-A6EB26E95567">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:36:18 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoEncuesta" id="89DF0C1E-122C-D31E-52B6-CF7E712F6068">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:25:53 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInicioDis" id="499F1533-1609-9B03-FA59-7D3DB272D3F5">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:10:23 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaFinDis" id="281506BB-8AF2-9B78-EFBC-A9B22B4F25F5">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:10:23 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maxEncuesta" id="9065502F-EAA1-4EB7-7580-013C2EF6DE03">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:10:23 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contadorEncuesta" id="617E6962-65BF-AFE7-2089-4CD04DF82A26">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:10:23 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCategoriaEnc" id="FB5D216C-EF25-A995-F73D-990531C8C5A0">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:11:05 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDFBCA42-377C-7891-E2FD-E0D67E5ACC9A" referredColumn="F2545BE8-2C40-B1DB-7173-DDACA36EBC04"/>
+</associations>
+</Column>
+<Column name="rangoEdadMin" id="26500BE6-B163-2C51-F5C8-B8C6C0525E1B">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:48:07 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rangoEdadMax" id="B0F597F1-97C3-3D19-A64C-5B6FA149CBA1">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:48:07 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="generoObjetivo" id="8ED6AF1F-5850-CB61-0835-9E8931875B9A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:48:07 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="AB29950A-EC9C-507B-2B90-8F8C474CFAA2">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-03 20:56:55 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D9F9903-B73B-4231-7475-9FBE9CA67459" name="ENCUESTAS_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:36:18 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="288C979E-CB4E-06A0-D686-2C46E668B60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="444EA4B5-DA4B-0298-C28B-C44D2E246414" name="ENCUESTAS_categoriaEncuesta_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 17:01:00 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB5D216C-EF25-A995-F73D-990531C8C5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

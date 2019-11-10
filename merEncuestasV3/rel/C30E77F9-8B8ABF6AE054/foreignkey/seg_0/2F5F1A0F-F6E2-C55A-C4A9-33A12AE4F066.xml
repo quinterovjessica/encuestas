@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F5F1A0F-F6E2-C55A-C4A9-33A12AE4F066" containerWithKeyObject="3449D701-981B-56C4-9C3A-B26536E27F93" localFKIndex="25982C1E-70A4-A42C-E41E-FA943772157E" name="DESCRIPCION ENCUESTA_ENCUESTAS_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-10-30 02:04:54 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<referredTableLongName>ENCUESTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4919AAD-A93B-ED8D-A1B3-C4EC4D78E20C</referredTableID>
+<keyObject>2D9F9903-B73B-4231-7475-9FBE9CA67459</keyObject>
+<referredKeyID>2D9F9903-B73B-4231-7475-9FBE9CA67459</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEncuesta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

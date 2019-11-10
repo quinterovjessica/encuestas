@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F530F0-CE40-CD3A-EDEA-1A04A141CB4B" name="ESTRATO">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:18:46 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstrato" id="14DEA404-16DB-10A9-44E1-664775ABDCE9">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:18:46 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreNivelEstrato" id="238780C5-D4D1-8987-1CF3-F9D30AF9DEC3">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:18:46 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ECDB362-8A94-E21F-8434-7C6F1F1CDC9C" name="NIVELESTUDIOSv3_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:18:46 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14DEA404-16DB-10A9-44E1-664775ABDCE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

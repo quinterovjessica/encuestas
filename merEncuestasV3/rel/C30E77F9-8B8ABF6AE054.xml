@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C30E77F9-7109-994C-37E9-8B8ABF6AE054" mainViewID="E0EE16C4-4816-AC2A-5CF5-FE38B1BDC1FC">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:11:14 UTC</createdTime>
+<ownerDesignName>merEncuestas</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

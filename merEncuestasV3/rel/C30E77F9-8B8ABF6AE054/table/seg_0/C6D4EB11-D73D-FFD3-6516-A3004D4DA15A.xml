@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D4EB11-D73D-FFD3-6516-A3004D4DA15A" name="RESP_PREG">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 17:20:23 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRespPreg" id="67B9EC10-7162-319A-F6DD-58AD3308AF01">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:15:02 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respuesta" id="F2C67485-30FC-8B1C-0729-29277EE60288">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 17:21:35 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdOpcionP" id="EC31FCC4-B1AC-0881-F3E9-45331153A120">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:15:11 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="1D7F29A7-4F2F-44F4-5414-68391D883504">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-03 20:57:51 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F344EF3D-EA1C-E1C4-6F43-B2C0264EBFF2" name="RESP_PREG_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 21:15:02 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B9EC10-7162-319A-F6DD-58AD3308AF01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

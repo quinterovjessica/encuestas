@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6B1ED4-71AE-864C-57EB-3072066EA04D" name="PAISES">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:29:35 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPais" id="034E1321-F9FC-D231-58CD-EAFC7CF519CC">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombrePais" id="A76E352C-A0D6-0A36-8352-2A57C4EFA754">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D17A22AB-F0FC-23DA-85E1-F505006BC2C0" name="PAISES_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:30:43 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034E1321-F9FC-D231-58CD-EAFC7CF519CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

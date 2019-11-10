@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE53D922-F0E7-8F8B-7A1B-D41DC016B370" containerWithKeyObject="DF3624CC-C8AD-B483-D3D1-F08CEC32434E" localFKIndex="471CBCBE-5F9D-E815-0883-7A0D160DC2DB" name="USUARIOS_ESTADOCIVIL_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:22:57 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<referredTableLongName>ESTADOCIVIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9666E519-0E1E-D38B-47A0-258CD18D0D8A</referredTableID>
+<keyObject>B68675F6-8153-6FE9-500A-11446C814C6C</keyObject>
+<referredKeyID>B68675F6-8153-6FE9-500A-11446C814C6C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEstadoCivil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

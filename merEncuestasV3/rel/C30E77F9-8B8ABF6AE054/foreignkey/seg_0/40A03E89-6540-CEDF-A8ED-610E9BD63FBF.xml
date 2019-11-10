@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40A03E89-6540-CEDF-A8ED-610E9BD63FBF" containerWithKeyObject="15DAE48A-B252-AAAD-CB40-AE52A5E2D77A" localFKIndex="20A7527C-B462-6772-3B40-E4C86BAC9ED5" name="DEPARTAMENTOS_PAISES_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-28 00:37:26 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<referredTableLongName>PAISES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C6B1ED4-71AE-864C-57EB-3072066EA04D</referredTableID>
+<keyObject>D17A22AB-F0FC-23DA-85E1-F505006BC2C0</keyObject>
+<referredKeyID>D17A22AB-F0FC-23DA-85E1-F505006BC2C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

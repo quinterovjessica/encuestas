@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3624CC-C8AD-B483-D3D1-F08CEC32434E" name="USUARIOS">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:11:36 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUusuario" id="B205223E-2EFA-E7FD-C377-8909615F2581">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:35:16 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USUARIOS_idPersona</notNullConstraintName>
+</Column>
+<Column name="primerNombre" id="1F2A3550-7652-BC51-B96E-C5EB22C0403F">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:32:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoNombre" id="8BAB64B6-FEBC-821B-791B-8DC60E759C7A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:32:57 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primerApellido" id="79CD00EA-0D05-BCCB-D2F4-976E0D44869A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:33:10 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoApellido" id="1F5C25F7-B63C-A62F-81A9-670FCF3FDB71">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:33:19 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="BB40386D-4DBC-8D9F-6B1E-0D4582977D9C">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:46:47 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="D1CB8C33-CABD-444F-CBCA-7FBB1C57BB6A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:48:11 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="F009B088-B190-CB3E-BEF7-8F6D5159CE2A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:48:29 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idNivelEstudios" id="E874B58D-06F5-26C4-02EE-1A2F099BB0DC">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9BC77D0-EE38-77BF-687F-53FD9FD7D313" referredColumn="75132278-2486-053F-0F5E-0BC565B8B541"/>
+</associations>
+</Column>
+<Column name="idGenero" id="7724A9B6-5B07-4FCD-7987-B426BCAF22D0">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:57 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idOcupacion" id="9019A8C0-ED20-CA90-5CA3-332E22FDD095">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:04 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71DBE079-37BB-1040-DCAD-15065862F751" referredColumn="4D732FFE-162F-FDEC-3071-C3338A696DD4"/>
+</associations>
+</Column>
+<Column name="idCiudad" id="923E5181-EAEB-85F8-C570-7B617A852258">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:09 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="872CF526-CFF1-281F-7468-4304133E41DB" referredColumn="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
+</associations>
+</Column>
+<Column name="estrato" id="F6CA0045-4C09-C37B-0B37-D614BC4E6255">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:00:10 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoCivi" id="7784C400-B52D-2DE4-8F39-ECB96B63AAFD">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:04:51 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="1D47F8DD-F98A-A1CA-CA49-2A1FF7192169">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-03 20:58:11 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTRATO_idEstrato" id="10DA2198-EC15-03EE-D7E8-2004E8FB3213">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:22:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="639AD920-E0B4-7694-CBF7-4D6EB28685F2" referredColumn="14DEA404-16DB-10A9-44E1-664775ABDCE9"/>
+</associations>
+</Column>
+<Column name="ESTADOCIVIL_idEstadoCivil" id="9B50E6C4-DFFA-A862-6720-C4F1FC8D9743">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:22:57 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE53D922-F0E7-8F8B-7A1B-D41DC016B370" referredColumn="E1A997C1-F5B9-10AC-8A23-87A9850B0584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="477439EC-8DE4-2C22-3CBA-4D0A0E776723" name="USUARIOS_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:35:16 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B205223E-2EFA-E7FD-C377-8909615F2581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D6FF9E-D3DC-DDA1-EB39-E74DEDA86ACA" name="USUARIOS_nivelEstudio_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E874B58D-06F5-26C4-02EE-1A2F099BB0DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="857E7D3F-034A-C59F-E54B-81AC0D0D2DBB" name="USUARIOS_ocupacion_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:04 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9019A8C0-ED20-CA90-5CA3-332E22FDD095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DEA40DE-6B33-8EA5-7B96-154030BCDFF7" name="USUARIOS_ciudades_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:27:09 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923E5181-EAEB-85F8-C570-7B617A852258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="303BA2BE-0D4C-B70B-BB23-476772002A6E" name="USUARIOS_ESTRATO_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:22:49 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DA2198-EC15-03EE-D7E8-2004E8FB3213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="471CBCBE-5F9D-E815-0883-7A0D160DC2DB" name="USUARIOS_ESTADOCIVIL_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-11-10 23:22:57 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B50E6C4-DFFA-A862-6720-C4F1FC8D9743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

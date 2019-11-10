@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BABA4E3-36FA-2A70-4B4C-421695C8452C" name="CIUDADES">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:58:56 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCiudad" id="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:59:13 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCiudad" id="D4EBA5CF-E2C1-8C68-D2AC-4ED6982B04E3">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-22 02:59:36 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idDepartamento" id="E0250C0F-7FDA-CF30-E586-41FF6C99603A">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 18:14:15 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="085F0B2F-FD17-B2A0-79D7-522713496A03" referredColumn="9EDEF7EF-AA5C-CBD8-F8BA-2F5D824CEEE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40E68938-E159-6035-9761-AA64084EECCA" name="ciudades_PK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-23 01:26:41 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8E3F9FC-2E27-8D51-8FFF-3447D4E1D5E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4B786B1-2313-999C-BE7F-D629FDDC0D37" name="CIUDADES_DEPARTAMENTOS_FK">
+<createdBy>quind</createdBy>
+<createdTime>2019-09-29 18:14:15 UTC</createdTime>
+<ownerDesignName>merEncuestasV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0250C0F-7FDA-CF30-E586-41FF6C99603A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
